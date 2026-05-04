@@ -18,7 +18,7 @@ def predict_price(area: float) -> float:
     """Predict house price from area."""
     model = load_model()
     prediction = model.predict(np.array([[area]]))
-    return float(prediction[0])
+    return float(prediction.flatten()[0])
 
 
 # Streamlit app layout
