@@ -10,7 +10,7 @@ A simple House Price Predictor to predict house price with just `area`(in sq.m) 
 
 ## Links
 
-- **Deployment Link**: [Streamlit]()
+- **Deployment Link**: [Streamlit](https://house-price-asc.streamlit.app/)
 - **Colab Notebook Link**: [Colab](https://colab.research.google.com/drive/1-T5S4tZyFS5CAV-eY5rcDAC3e0KjmGkE?usp=sharing)
 - **GitHub Repository**: [GitHub](https://github.com/asc-17/House-Price-Prediction)
 - **Dataset Used**: [Kaggle](https://www.kaggle.com/datasets/hemachandiranmurugan/house-price-india-dataset)
