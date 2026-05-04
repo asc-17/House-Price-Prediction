@@ -44,8 +44,8 @@ with st.form("prediction_form"):
 if submitted:
     try:
         prediction = round(predict_price(area), 2)
-        st.success(f"✅ Predicted house price: **${prediction:,.0f}**")
-        st.info(f"Input: {area} sq.m → Output: ${prediction:,.0f}")
+        st.success(f"✅ Predicted house price: **₹{prediction:,.0f}**")
+        st.info(f"Input: {area} sq.m → Output: ₹{prediction:,.0f}")
     except Exception as e:
         st.error(f"❌ Error generating prediction: {str(e)}")
 
